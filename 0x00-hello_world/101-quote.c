@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #include <unistd.h>
 /**
  * man-program entry point.
