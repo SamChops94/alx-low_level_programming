@@ -2,7 +2,7 @@
 
 #include <unistd.h>
 /**
- * man-program entry point.
+ * main-program entry point.
  *
  * Return :1 on success
 */
