@@ -4,15 +4,11 @@
 
 /**
  * main-program entry point 
- * Return:0-no error, non zero if no error
+ * Return: 0-no error, non zero if no error
 **/
-
-
 int main(void)
 {
-
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
