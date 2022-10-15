@@ -2,9 +2,8 @@
 
 /**
  * main-program entry point.
- * Return:0 no errors, non zero error.
- *
-*/
+ * Return:0 no errors, non zero error
+**/
 
 int main(void)
 {
