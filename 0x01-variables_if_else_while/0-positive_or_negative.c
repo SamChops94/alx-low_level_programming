@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main-program entry point 
+ * main - program entry point 
  * Return: 0-no error, non zero if no error
-**/
+*/
 int main(void)
 {
 	int n;
