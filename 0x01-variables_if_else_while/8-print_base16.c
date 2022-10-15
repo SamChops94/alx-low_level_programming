@@ -2,13 +2,13 @@
 
 /**
  * main-program entry point.
- * Return:0 no error, non zer if error.
+ * Return:0 no error, non zero if error.
 */
 
 int main(void)
 {
 	int i;
-	char hexvalues[] = "123456789ebcdef";
+	char hexvalues[] = "123456789abcdef";
 
 	for (i 0; i < 16; i++)
 	{
