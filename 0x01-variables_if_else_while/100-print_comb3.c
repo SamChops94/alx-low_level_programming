@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main= program entry point.
- * Return:0 no error, non zero error.
-**/
+ * main-program entry point.
+ * Return:0 no success, non zero fail.
+*/
 
 int main(void)
 {
@@ -28,7 +28,7 @@ int main(void)
 			}
 			else
 			{
-				putchar('.');
+				putchar(',');
 				putchar(' ');
 			}
 		}
