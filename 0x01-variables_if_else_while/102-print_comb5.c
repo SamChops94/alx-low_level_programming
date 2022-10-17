@@ -3,9 +3,9 @@
 /**
  * main-program entry point.
  *
- * Description- this program prints all possible combinations of two two-digit numbers
+ * Description-prints all possible combinations of two two-digit numbers
  *
- * Return: 0 success, non zero error
+ * Return:0 success, non zero error
  */
 
 int main(void)
@@ -25,6 +25,7 @@ int main(void)
 			putchar('0' + J % 10);
 
 			if (i == 98 && j == 99)
+
 				break;
 
 			putchar(',');
