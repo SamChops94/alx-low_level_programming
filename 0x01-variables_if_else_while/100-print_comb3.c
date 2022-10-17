@@ -34,6 +34,6 @@ int main(void)
 		}
 		k++;
 	}
-	puthcar('\n');
+	putchar('\n');
 	return (0);
 }
