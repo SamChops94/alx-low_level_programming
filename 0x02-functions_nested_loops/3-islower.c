@@ -3,7 +3,7 @@
 /**
  * _islower - checks for lower cased character
  *
- *c: is the char to be checked
+ * @c: This is the char to be checked
  *
  * Return:1 if sucess, 0 error
  */
@@ -12,6 +12,6 @@ int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
-	else	
+	else
 		return (0);
 }
