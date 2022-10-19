@@ -3,7 +3,8 @@
 /**
  * print_sign - checks for dign of a number
  * @n: the char being checked
- * Return: 1 if no error, 0 error
+ * Return:1 and prints + if n is greater than zero,
+ * 0 and prints 0 if n is zero, -1 and prints - if n is less than zero
  */
 
 int print_sign(int n)
