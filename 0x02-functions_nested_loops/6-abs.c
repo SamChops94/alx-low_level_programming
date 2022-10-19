@@ -3,14 +3,13 @@
 /**
  *  _abs - computes abs value of an int
  *
- * @int: the int being printed
+ * @n: the int being printed
  *
  *  Return:the abs of an int
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int n;
 
 	if (n >= 0)
 		return (n);
