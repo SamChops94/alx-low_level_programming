@@ -2,7 +2,8 @@
 
 /**
  * add - adds to nums
- *@rt: the result of addition
+ * v: the result of addition
+ * n: an int
  * Return: 0
  */
 
