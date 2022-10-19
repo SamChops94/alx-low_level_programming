@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * add - adds to nums
- * @v: first num
- * @n:second num
- * Return: 0
+ * add - adds two numbers
+ *
+ * @v: the first number
+ *
+ * @n: the second number
+ *
+ * Return: the addition of both numbers
  */
 
 int add(int v, int n)
