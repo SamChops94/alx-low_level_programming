@@ -2,8 +2,8 @@
 
 /**
  * add - adds to nums
- * v: the result of addition
- * n: an int
+ * @v: first num
+ * @n:second num
  * Return: 0
  */
 
