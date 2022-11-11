@@ -4,24 +4,16 @@
 /**
  * malloc_checked - allocates memory using malloc.
  * @size: size of memory.
- * @b: stored int.
+ * @b: amount of bytes.
  * Return: a pointer to the memory.
  */
 
 void *malloc_checked(unsigned int b)
 {
-	int b;
+	char *p;
 
-	*b = n;
-
-	int i;
-
-	if (i != sizeof(int))
-		return (NULL);
-
-	b = malloc(n * sizeof(int));
-
-	for (i = 0; i < sizeof(int))
-
-		return (b);
+	p = malloc(b);
+	if (p == NULL)
+		exit(98);
+	return (p);
 }
